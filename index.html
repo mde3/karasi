@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>karasi</title>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!--=============== ICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!--=============== GOOGLE FONT ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo"><img src="./assets/images/logo.png" class="nav-logo-img">karasi</a>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#collection" class="nav-link">Collection</a></li>
+                    <li class="nav-item"><a href="#company" class="nav-link">Company</a></li>
+                    <li class="nav-item"><a href="#store" class="nav-link">Store</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
+                </ul>
+                <div class="nav-close" id="nav-close"><i class="bx bx-x"></i></div>
+                <div class="nav__dark">
+                    <i class='bx bx-search-alt change-theme'></i>
+                    <i class='bx bx-cart-add change-theme' ></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle"><i class='bx bx-align-right'></i></div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        
+        <!--=============== HERO ===============-->
+        <section class="home section" id="home">
+            <div class="home-container container">
+                <h1 class="home-title">The best collection of <br> chairs is here</h1>
+                <div class="home-icons">
+                    <p class="home-desc">
+                        Find various types of quality chairs, and international standards. Only with this one website you
+                        can see and buy quality chairs. Immediately order the best seat of your choice before the stock runs out!</p>
+                    <a href="#collection"><i class='bx bx-down-arrow-alt change-theme home-theme'></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== COLLECTION ===============-->
+        <section class="collection section" id="collection">
+            <div class="collection-container container">
+
+                <div class="collection-data">
+                    <h1 class="collection-title">Why should <span class="span">you choose our product?</span></h1>
+                </div>
+                
+                <ul class="collection-list grid">
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-badge-check change-theme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">Best Quality</h3>
+                                <p class="collection-list-desc">We always prioritize customer satisfaction over everything.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-plane-alt change-theme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">International standard</h3>
+                                <p class="collection-list-desc">We already have international standards, and we often import abroad.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collection-card">
+                            <div class="card-icon">
+                                <i class='bx bxs-check-shield change-theme collection-theme'></i>
+                            </div>
+                            <div>
+                                <h3 class="collection-list-title">Long warranty</h3>
+                                <p class="collection-list-desc">All the products we provide have a long warranty of up to 2-3 years.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--=============== COMPANY ===============-->
+        <section class="company section" id="company">
+
+           <div class="filters container">
+                <button class="filter-options active">All</button>
+                <button class="filter-options">Armchair</button>
+                <button class="filter-options">Lounge Chair</button>
+                <button class="filter-options">Club Chair</button>
+                <button class="filter-options">Rocky Chair</button>
+                <button class="filter-options">Camping Chair</button>
+                <button class="filter-options">Folding Chair</button>
+                <button class="filter-options">Recliner</button>
+                <button class="filter-options">Desk Chair</button>
+           </div>
+
+           <div class="company-container container">
+                <ul class="has-scrollbar">
+                    <!--1st-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-1.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Armless chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--2nd-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-2.jpg" width="500" height="600" alt="Wooden chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Wooden chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--3rd-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-3.jpg" width="500" height="600" alt="Armchair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Armchair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--4th-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-4.jpg" width="500" height="600" alt="Rocking chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Rocking chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--5th-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-5.jpg" width="500" height="600" alt="Wooden chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Wooden chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--6th-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-6.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Armless chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                    <!--7th-->
+                    <li class="scrollbar-item">
+                        <div class="company-card">
+                            <figure class="card-banner img-holder" style="--width: 500; --height: 600;">
+                                <img src="./assets/images/product-8.jpg" width="500" height="600" alt="Armless chair" class="img-cover">
+                                <ul class="company-icon">
+                                    <li>
+                                        <button class="company-btn" title="add to cart">
+                                            <i class='bx bx-link-external'></i>
+                                        </button>
+                                    </li>
+                                </ul>
+                            </figure>
+                            <div class="card-content">
+                                <h3 class="card-title">Armless chair</h3>
+                                <p class="card-text">600 stock availabe</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="hallmark">
+                    <h3 class="hallmark-title">Accuracy and Quality is our Hallmark</h3>
+                    <p class="hallmark-desc">Our products are often made with high-quality materials and are designed and manufactured with attention to detail. It may also come with a warranty or guarantee, providing our consumer with confidence in its durability and performance.</p>
+                </div>
+           </div>
+        </section>
+
+        <!--=============== STORE ===============-->
+        <section class="store" id="store">
+
+            <div class="title-wrapper section container">
+                <h1 class="store-title">New Products</span></h1>
+                <p class="store-desc">This beautifully crafted piece of furniture will add a touch of elegance and sophistication to any room.</p>
+            </div>
+
+            <ul class="store-list">
+                <!--1st-->
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-8.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Type</p>
+                                <h3 class="store-content-title">Armless chair</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Availability</p>
+                                <h3 class="store-content-title">61 stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--2nd-->
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-6.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Type</p>
+                                <h3 class="store-content-title">Armchair</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Availability</p>
+                                <h3 class="store-content-title">75 stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--3rd-->
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-1.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Type</p>
+                                <h3 class="store-content-title">Armless chair</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Availability</p>
+                                <h3 class="store-content-title">41 stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!--4th-->
+                <li>
+                    <div class="store-card has-bg-image has-after" style="background-image: url('./assets/images/product-2.jpg')">
+                        <div class="store-content">
+                            <div>
+                                <p class="store-content-desc">Type</p>
+                                <h3 class="store-content-title">Wooden chair</h3>
+                            </div>
+                            <div>
+                                <p class="store-content-desc">Availability</p>
+                                <h3 class="store-content-title">61 stock</h3>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section container" id="contact">
+            <h2 class="section-title">What our happy <br> customers say</h2>
+            <p class="section-subtitle">Get to know what people say about our products.</p>
+
+            <div class="contact-container swiper">
+                <div class="swiper-wrapper">
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">I recently purchased this product and have been extremely impressed with its quality and performance. It is well-made, reliable, and has exceeded my expectations in every way. The customer service provided by the company was also excellent, and I would highly recommend this product to others.</p>
+                        <h3 class="contact-title">Sarah Johnson</h3>
+                        <span class="contact-span">Customer</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">I recently purchased this product and have been extremely impressed with its quality and performance. It is well-made, reliable, and has exceeded my expectations in every way. The customer service provided by the company was also excellent, and I would highly recommend this product to others.</p>
+                        <h3 class="contact-title">Michael Williams</h3>
+                        <span class="contact-span">Customer</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">I recently purchased this product and have been very happy with it. The quality is excellent and it has exceeded my expectations in terms of durability and performance. The customer service provided by the company was also outstanding, and I would definitely recommend this product to others.</p>
+                        <h3 class="contact-title">David Lee</h3>
+                        <span class="contact-span">Customer</span>
+                    </article>
+                    <article class="contact-card swiper-slide">
+                        <i class='bx bxs-quote-left contact-theme'></i>
+                        <p class="contact-message">I recently purchased this product and was blown away by its quality and effectiveness. It is well-designed, reliable, and has exceeded my expectations in every way. The customer service provided by the company was also outstanding, and I would highly recommend this product to others.</p>
+                        <h3 class="contact-title">Jessica Anderson</h3>
+                        <span class="contact-span">Customer</span>
+                    </article>
+                </div>
+                <div class="swiper-button-next"><i class='bx bx-right-arrow-alt'></i></div>
+                <div class="swiper-button-prev"><i class='bx bx-left-arrow-alt'></i></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <!-- footer 1st -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Quick Links</h3>
+                    <ul>         
+                        <li class="footer-item"><a href="index.html" class="footer-link">Home</a></li>
+                        <li class="footer-item"><a href="#collection" class="footer-link">Collection</a></li>
+                        <li class="footer-item"><a href="#company" class="footer-link">Company</a></li>
+                        <li class="footer-item"><a href="#store" class="footer-link">Store</a></li>
+                    </ul>
+                </div>
+                <!-- footer 2nd -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Services</h3>
+                    <ul>         
+                        <li class="footer-item"><a href="#" class="footer-link">Download</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Agents</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Careers</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- footer 3rd -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Social Media</h3>
+                    <ul>
+                        <li class="footer-item"><a href="#" class="footer-link">Facebook</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Instagram</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Twitter</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <!-- footer 4th -->
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Information</h3>
+                    <ul>
+                        <li class="footer-item"><a href="#" class="footer-link">Company</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Terms and Conditions</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">Customer Support</a></li>
+                        <li class="footer-item"><a href="#" class="footer-link">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- footer rights -->
+            <div class="footer-rights">
+                <a href="index.html" class="footer-logo"><img src="./assets/images/logo.png" class="nav-logo-img">karasi</a>
+                <div class="footer-terms">
+                    <a href="https://github.com/mde3" target="_blank" class="footer-terms-link rights-link"> Copyright 2022 &#45; Mabior</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
