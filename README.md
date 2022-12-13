@@ -9,7 +9,7 @@
 
   Built this for educational purposes only.
 
-  <a href="https://universeglance.netlify.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://karasi.netlify.app/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
